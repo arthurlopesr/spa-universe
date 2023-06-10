@@ -1,0 +1,44 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: "";
+}
+
+:root {
+    font-size: 62, 5%;
+
+    --text-nav-color: #C4C4CC;
+    --text-color: #E1E1E6;
+    --text-button-colort: #fff;
+    --text-hover-button: #02799D;
+    --ff-primary: "Roboto", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-left: 5rem;
+    font-family: var(--ff-primary);
+}
+
+h1 {
+    margin-top: -15rem;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 4.8rem;
+}
+
+p {
+    margin-top: 2rem;
+    width: 68rem;
+    font-size: 1.8rem;
+
+    color: var(--text-color);
+}
